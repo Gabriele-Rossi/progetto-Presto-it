@@ -1,0 +1,20 @@
+.loves-category{
+
+font-family: 'Open Sans', sans-serif;
+font-size: 38px;
+font-weight: 750;
+color: white;
+text-shadow:2px 3px 3px var(--bluscuro);       
+    
+}
+
+.loves-category2{
+
+font-family: 'Open Sans', sans-serif;
+font-size: 38px;
+font-weight: 750;
+color: #151B22;
+margin-bottom: 0;
+text-shadow:2px 1px 2px#59ab6e; 
+
+}

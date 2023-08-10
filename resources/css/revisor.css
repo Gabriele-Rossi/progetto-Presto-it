@@ -1,0 +1,23 @@
+.bottom-go-home{
+
+    justify-content: center !important;
+}
+
+
+.wrapper-revisor {
+    /* position: relative; */
+    justify-content: center;
+    width: 850px;
+    height: 550px;
+    /* background: transparent; */
+    border: 2px solid var(--bluscuro);
+    overflow: hidden;
+    /* box-shadow: 5px 5px 4px 5px rgba(0, 0, 0, 0.341); */
+    
+    border-radius: 10px;
+    background: transparent;
+    padding: 20px;
+    overflow: hidden;
+}
+
+

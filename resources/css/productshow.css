@@ -1,0 +1,122 @@
+/* form create-product */
+
+.formCustom{
+    border: 1px solid #151b22;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient( 45deg,white, white 100%,white,#59ab6eb3 ,var(--bluscuro)); */
+    background: linear-gradient(45deg, var(--bluscuro)75%,  var(--salmon) 75%); 
+    box-shadow: 5px 7px 5px rgba(85, 85, 85, 0.651);
+    overflow: hidden;
+    padding: 60px 120px 60px 120px;
+    
+  }
+
+  @media screen and (max-width: 1025px) {
+    .formCustom{
+    padding: 40px 80px 40px 80px !important;
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .formCustom{
+    padding: 30px 60px 30px 60px !important;
+    }
+  }
+  @media screen and (max-width: 577px) {
+    .formCustom{
+    padding: 20px 40px 20px 40px !important;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .formCustom{
+    padding: 20px 20px 20px 20px !important;
+    }
+  }
+  
+  
+  /*fine form create-product */
+
+  /* Titolo */
+  .title-Custom{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow:2px 1px 2px var(--bluscuro);
+
+}
+
+@media screen and (max-width:500px) {
+  .title-Custom{
+  
+    font-size: 35px;
+    font-weight: 700;
+  
+
+}
+}
+
+/* button add */
+
+.btn-add{
+    width: 150px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background: #59ab6e;
+    color: white;
+    padding: 1.2em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--bluscuro);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+.btn-add  .span-add {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-add  .svg-add {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  .btn-add:hover .svg-wrap {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+    
+  }
+  .btn-add:hover .svg-add {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+    margin-left: 20px;
+    
+  }
+  .btn-add:hover  .span-add {
+    transform: translateX(6em);
+    width: 50px;
+  }
+  .btn-add:active {
+    transform: scale(0.95);
+  }
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  .img-preview{
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    min-width: 150px;
+    
+  }

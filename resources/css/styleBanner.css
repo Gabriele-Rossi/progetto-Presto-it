@@ -1,0 +1,125 @@
+.main-banner {
+  border-bottom: 2px solid var(--verdino);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: white;
+
+}
+.main-banner .left-content .thumb img {
+
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 2px 10px 5px var(--grigio);
+  margin-bottom: 25px;
+}
+.main-banner .left-content .inner-content {
+  position: absolute;
+  text-align: center !important;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.main-banner .left-content .inner-content h4 {
+  position: absolute;
+  color: #fff;
+  margin-top: -60px;
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.main-banner .left-content .inner-content div {
+  position:absolute;
+  font-size: 15px;
+    color: #fff;
+    font-style: italic;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.main-banner .right-content .right-first-image {
+  margin-bottom: 28.5px;
+}
+.main-banner .right-content .right-first-image .thumb {
+  position: relative;
+  text-align: center;
+}
+.main-banner .right-content .right-first-image .thumb img {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 2px 10px 5px var(--grigio);
+}
+.main-banner .right-content .right-first-image .thumb .inner-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.main-banner .right-content .right-first-image .thumb .inner-content h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.main-banner .right-content .right-first-image .thumb .inner-content span {
+  font-size: 16px;
+  color: #fff;
+  font-style: italic;
+}
+.main-banner .right-content .right-first-image .thumb .hover-content {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  left: 15px;
+  bottom: 15px;
+  text-align: center;
+  background-color: rgba(42,42,42,.97);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.main-banner .right-content .right-first-image .thumb:hover .hover-content {
+  opacity: 1;
+  visibility: visible;
+}
+.main-banner .right-content .right-first-image .thumb .hover-content .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.main-banner .right-content .right-first-image .thumb .hover-content h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.main-banner .right-content .right-first-image .thumb .hover-content p {
+  color: #fff;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+.main-banner .right-content .right-first-image .thumb .hover-content .main-border-button{
+  margin-top: 30px;
+  background-color: #2a2a2a;
+ 
+}
+.main-banner .right-content .right-first-image .thumb .hover-content .main-border-button a{
+  text-align: center;
+  border: 3px solid #e1e1e1;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #e1e1e1;
+  transition: all 0.4s ease-in-out;
+}
+.main-banner .right-content .right-first-image .thumb .hover-content .main-border-button:hover a:hover{
+  background-color: #fffbfb;
+  color: #2a2a2a;
+  transition: all 0.4s ease-in-out;
+}

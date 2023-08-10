@@ -1,0 +1,448 @@
+
+.section-custom {
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Cstumizzazione Login */
+
+.wrapper-login {
+    position: relative;
+    width: 750px;
+    height: 550px;
+    border: 2px solid #151b22;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.341);
+    background: linear-gradient(45deg,var(--bluscuro) 75%, var(--salmon) 25%);
+    padding: 20px;
+}
+
+.wrapper-login2 {
+  position: relative;
+  width: 750px;
+  height: 500px;
+  border: 2px solid #151b22;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.341);
+  background: linear-gradient(45deg,var(--bluscuro) 75%, var(--salmon) 25%);
+  padding: 20px;
+}
+
+
+.wrapper-login .form-box{
+    top: 0;
+    width:50%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+/* Scritta Accedi */
+.form-box h2{
+
+    font-size:32px;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+/* Custumizzazione input */
+
+.form-control:active{
+    /* background: transparent; */
+    box-shadow: none;
+}
+.input-box {
+
+    position: relative ;
+    width: 100% ;
+    height: 35px;
+    margin-bottom: 50px;
+    padding: 0;   
+    color: #fff;
+}
+.input-box2{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    /* padding-right: 23px; */
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+    border: none ;
+    outline: none ;
+    border-bottom: 2px solid white;
+    margin-top:-60px
+}
+.form-control {
+    border: none !important;
+}
+.label-color{
+    color: #2c9646;
+}
+/* Costum Item */
+.input-box i{
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 16px;
+    pointer-events: none;
+}
+/* Costumizzazione Btn */
+.btn-custom{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: transparent;    
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #151B22;
+    
+    z-index: 1;
+    overflow: hidden;  
+    margin-right: 0px !important;
+    margin-left: 30%;
+    transition: all 0.3 ease-in-out; 
+}
+.btn-custom2{
+  position: relative;
+  width: 100%;
+  height: 45px;
+  background: transparent;    
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left : 52px;
+  padding-right: 52px;
+  color: #151B22;
+  font-weight:600;
+  z-index: 1;
+  overflow: hidden;  
+  margin-right: 0px !important;
+  margin-left: 38% !important;
+  transition: all 0.3 ease-in-out;
+}
+.btn-custom:hover{
+  font-weight:600;
+  transition: all 0.3 ease-in-out;
+}
+.btn-custom2:hover{
+  font-weight:600;
+  transition: all 0.3 ease-in-out;
+}
+
+/* Uiverse.io Button */
+
+.button.position{
+
+  margin-left: 10000px;
+
+}
+
+.button1 {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#0a7777,#59ab6e,#0a7777,#0a7777,#59ab6e,#0a7777);
+    background-size: 250%;
+    background-position: left;
+    color: #59ab6e;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+    margin: 28px -3px 10px;
+    /* margin-bottom: 100px; */
+  }
+  
+  .button1::before {
+    position: absolute;
+    content: "ACCEDI";
+    color: #59ab6e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: #151B22;
+    background-size: 200%;
+    font-size: 17px;
+  }
+  
+  .button1:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .button1:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .button1:active {
+    transform: scale(0.95);
+  }
+/* parte sx del login */
+.positionh2login{
+ margin-top: 45% !important;
+ width: 100% !important;
+}
+.positiontextlogin{
+  height: 20vh !important;
+  width: 100% !important;
+
+}
+/* media query */
+@media screen and (max-width: 500px) {
+.form-register{
+  width: 470px !important;
+}
+.form-box{
+ width: 470px !important;
+}
+.button1{
+  width: 90px;
+  height: 33px;
+  font-size: 17px ;
+}
+.wrapper-login {
+  margin: 5px;
+  padding: 5px;
+}
+}
+@media screen and (max-width: 420px) {
+.form-register{
+ width: 390px !important;
+}
+.form-box{
+ width: 390px !important;
+}
+.button1{
+  width: 90px;
+  height: 33px;
+  font-size: 17px ;
+}
+.wrapper-login {
+margin: 5px;
+padding: 0px;
+}
+}
+@media screen and (max-width: 370px) {
+.form-register{
+  width: 340px !important;
+} 
+.form-box{
+  width: 340px !important;
+}
+.button1{
+  width: 90px;
+  height: 33px;
+  font-size: 17px ;
+}
+.wrapper-login {
+  margin: 5px;
+  padding: 0px;
+}
+}
+@media screen and (max-width: 290px) {
+.form-register{
+  width: 250px !important;
+}
+.form-box{
+ width: 250px !important;
+}
+/* .input-box2{
+ width: 220px !important;
+} */
+.button1{
+  width: 90px;
+  height: 33px;
+  font-size: 17px ;
+}
+.wrapper-login {
+  margin: 5px;
+  padding: 0px;
+}
+}
+.logreg-link{
+  font-size: 14px;
+  color: #151B22;
+  text-align: center;
+  margin:20px 30px 0px;
+  margin-left: -75px;
+}
+
+.logreg-link p a{
+  color: #59ab6e;
+  text-decoration: none;
+  font-weight:600;  
+}
+.logreg-link p a:hover{
+
+  text-decoration: underline;
+}
+
+
+/* fine login */
+/* Custum Link registrati */
+
+.logreg-link1{
+    font-size: 14px;
+    color: #151B22;
+    text-align: center;
+    margin:20px 60px 0px;
+    margin-left: -70px;
+}
+.logreg-link1 p a{
+    color: #59ab6e;
+    text-decoration: none;
+    font-weight:600;  
+}
+.logreg-link1 p a:hover{
+
+    text-decoration: underline;
+}
+
+
+
+/* fine login */
+/* _____________________________________________________________________________________________________________________________________ */
+
+/* Register */
+.wrapper-register {
+    position: relative;
+    width: 750px !important;
+    height: 650px;
+    border: 2px solid #151b22;
+    overflow: hidden;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.341);
+    border: 2px solid #151b22;
+    border-radius: 10px;
+    background: linear-gradient(45deg,var(--bluscuro) 75%, var(--salmon) 25%);
+    padding: 20px;
+}
+
+/* Form Costum */
+
+.wrapper-login2 .form-box{
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-register h2{
+
+  font-size:32px;
+  text-align: center;
+ 
+}
+
+
+.input-box3{
+  width: 100%;
+  height: 100%;
+  background:transparent;
+  /* padding-right: 23px; */
+  color: white;
+  font-weight: 500;
+  transition: .5s;
+  border: none ;
+  outline: none ;
+  border-bottom: 2px solid white;
+  margin-top:-60px
+}
+
+/* Btn Custom */
+
+/* Uiverse.io Button */
+
+.button2 {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#0a7777,#59ab6e,#0a7777,#0a7777,#59ab6e,#0a7777);
+    background-size: 250%;
+    background-position: center !important;
+    color: #59ab6e;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+  
+  .button2::before {
+    position: absolute;
+    content: "REGISTRATI";
+    color: #59ab6e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: #151B22;
+    background-size: 200%;
+  }
+  
+  .button2:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .button2:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .button2:active {
+    transform: scale(0.95);
+  }
+
+  .positionh2register{
+    margin-top: 65% !important;
+    width: 100vw !important;
+   }
+   .positiontextregister{
+     height: 80vh !important;
+     width: 100vw !important;
+   }
+
+
+
+
+
+
+
+
+/* ________________________________________________ */
+
+
+
+
+
