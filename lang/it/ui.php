@@ -85,5 +85,6 @@ return[
     'user'=> 'utente', 
     "myAnnouncements1" => 'I tuoi annunci', 
     'editYourProduct' => 'Modifica il tuo annuncio',
+    'revisorAnnouncements' => 'revisione'
     
 ];  

@@ -7,12 +7,12 @@
     <div class="row justify-content-center">
       @if ($product_to_check)
       <div class="col-12 col-md-8">
-        <h1 class="display-1 text-center loves-category2 pt-5">
-          {{__('ui.showAnnouncements')}} {{$product_to_check->title}}
-        </h1>
-        <h3 class="display-5 text-center loves-category2">
+        <h2 class="display-1 text-center loves-category2 pt-5">
+          {{__('ui.revisorAnnouncements')}}: {{$product_to_check->title}}
+        </h2>
+        {{-- <h3 class="display-5 text-center loves-category2">
           di {{$product_to_check->user->name}}
-        </h3>
+        </h3> --}}
       </div>
 
       <div class="col-12 col-md-8 mt-3 wrapper-revisor">

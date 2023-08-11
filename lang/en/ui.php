@@ -86,5 +86,6 @@ return [
     'user'=> 'area', 
     "myAnnouncements1" => 'Your announcements', 
     'editYourProduct' => 'Edit your announcements',
+    'revisorAnnouncements' => 'revision'
     
 ];
