@@ -44,18 +44,18 @@
                                         <div class="container-fluid">
                                             <div class="row align-content-center justify-content-center flex-wrap">
                                                 <div class="col-12 break ps-0 ms-0">
-                                                   <p class="pt-3 mb-3 pe-2">
-                                                    <i class="fa-solid fa-user fa-xl mx-0" style="color: #ffffff;"> </i>
+                                                   <p class="pt-3 mb-2 mt-1 pe-1">
+                                                    <i class="fa-solid fa-user  mx-0" style="color: #ffffff;"> </i>
                                                     </p>
                                                 </div>
                                                 <div class="col-12 ps-0 ms-0 break">
-                                                    <p class="pt-3 mt-2 ">
-                                                        <i class="fa-solid  fa-envelope fa-xl" style="color: #ffffff;"> </i>
+                                                    <p class="pt-3 ">
+                                                        <i class="fa-solid  fa-envelope " style="color: #ffffff;"> </i>
                                                     </p>
                                                 </div>
                                                 <div class="col-12 ps-0 ms-0">
-                                                    <p class="pt-3 mt-2 ">
-                                                        <i class="fa-solid fa-lock fa-xl" style="color: #ffffff;"></i>
+                                                    <p class="pt-2 mt-2 ">
+                                                        <i class="fa-solid fa-lock " style="color: #ffffff;"></i>
                                                     </p>
                                                 </div>
                                             </div>
@@ -65,14 +65,14 @@
                                         <div class="container-fluid">
                                             <div class="row justify-content-between">
                                                 <div class="col-6 ps-2">
-                                                    <p class="h5 ms-0 py-3 text-start break">Username</p>
-                                                    <p class="h5 ms-0 py-3 text-start break">Email</p>
-                                                    <p class="h5 ms-0 py-3 text-start">Password</p>
+                                                    <p class="h5 ms-0 py-3 text-start break text-redux15px">Username</p>
+                                                    <p class="h5 ms-0 py-3 text-start break text-redux15px">Email</p>
+                                                    <p class="h5 ms-0 py-3 text-start text-redux15px">Password</p>
                                                 </div>
                                                 <div class="col-6 pe-0">
-                                                    <p class="h5 text-end py-3 break">{{Auth::user()->name}}</p>
-                                                    <p class="h5 text-end py-3 break">{{Auth::user()->email}}</p>
-                                                    <p class="h5 text-end py-3 text-truncate">*********</p>
+                                                    <p class="h5 text-end py-3 break text-bluscuro text-redux15px">{{Auth::user()->name}}</p>
+                                                    <p class="h5 text-end py-3 break text-bluscuro text-redux15px">{{Auth::user()->email}}</p>
+                                                    <p class="h5 text-end py-3 text-bluscuro text-truncate text-redux15px">*********</p>
                                                 </div>
                                             </div>
                                         </div>

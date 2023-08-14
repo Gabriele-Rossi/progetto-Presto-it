@@ -473,4 +473,12 @@ body{
     margin-top: 100px;
 
 }
-
+.text-redux15px{
+    font-size: 15px !important;
+}
+.text-redux10px{
+    font-size: 10px !important;
+}
+.text-redux20px{
+    font-size: 20px !important;
+}
