@@ -1,20 +1,20 @@
 <header class="bgheader1 container-fluid">
   @if (session('message'))
-  <div class="alert alert-success" id="adv">
+  <div class="alert alert-success alert-success-height" id="adv">
       {{ session('message') }}
   </div>
   @endif
 
     
   @if (session('access.denied'))
-  <div class="alert alert-danger" id="adv">
+  <div class="alert alert-danger alert-success-height" id="adv">
       {{ session('access.denied') }}
   </div>
   @endif
   
   
   @if ($errors->any())
-  <div class="alert alert-danger" id="adv">
+  <div class="alert alert-danger alert-success-height" id="adv">
       <ul>
           @foreach ($errors->all() as $error)
           <li>{{ $error }}</li>

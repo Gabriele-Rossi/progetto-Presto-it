@@ -83,7 +83,7 @@ class CreateProduct extends Component
 
     protected $rules = [
         
-        'title'=>'required|min:5',
+        'title'=>'required|min:5|max:50',
         'body'=>'required|min:10',
         'price'=>'required|numeric|min:1',
         'category_id'=>'required',
@@ -95,19 +95,20 @@ class CreateProduct extends Component
     
     protected $messages = [
         
-        'title.required'=>'Il titolo è richiesto!',
-        'body.required'=>'La descrizione è richiesta!',
-        'price.required'=>'Inserisci il prezzo del tuo Prodotto!',
-        'title.min'=>'Il titolo è troppo corto!',
-        'body.min'=>'La descrizione è troppo corta!',
+        'title.required'=>'Il titolo è obbligatorio',
+        'body.required'=>'La descrizione è obbligatoria',
+        'price.required'=>'Inserisci il prezzo nel tuo annuncio',
+        'title.min'=>'Il titolo non supera il limite minimo di caratteri (5)',
+        'title.max'=>'Il titolo ha superato il limite di caratteri massimo (50)',
+        'body.min'=>'La descrizione non supera il limite minimo di caratteri (10)',
         'price.min'=>'Il prezzo minimo è di 1€',
-        'price.numeric'=>'Il prezzo deve essere un numero!',
-        'category_id.required'=>'Devi selezionare una categoria!',
+        'price.numeric'=>'Il prezzo deve essere un numero maggiore di 0',
+        'category_id.required'=>'Devi selezionare una categoria',
         'temporary_images.required' => "L'immagine è richiesta",
         'temporary_images.*.image' => 'I file devono essere immagini',
-        'temporary_images.*.max' => "L'immagine dev'essere massimo di 1mb",
+        'temporary_images.*.max' => "L'immagine ha superato il limite massimo di peso (1 mb)",
         'images.image' => "Il file dev'essere un'immagine",
-        'images.max' => "L'immagine dev'essere massimo di un 1mb",
+        'images.max' => "L'immagine ha superato il limite massimo di peso (1 mb)",
         
     ];
     

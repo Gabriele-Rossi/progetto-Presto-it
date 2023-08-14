@@ -11,7 +11,7 @@ class PublicController extends Controller
 {
     public function welcome() {
 
-        $products = Product::where('is_accept', true)->take(6)->orderBy('created_at' , 'desc')->get();
+        $products = Product::where('is_accept', true)->take(4)->orderBy('created_at' , 'desc')->get();
         
         return view('welcome' , compact('products'));
     }

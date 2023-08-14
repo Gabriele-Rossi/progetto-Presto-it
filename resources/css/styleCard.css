@@ -308,3 +308,54 @@
   .text-gray{
     color: rgb(67, 67, 67);
   }
+  @media screen and (max-width: 1286px){
+   
+      .btncardcustom{
+        font-size: 10px !important;
+        font-weight: lighter;
+        min-width: 125px !important;
+        justify-content: center;
+        margin-right: 20px;
+        margin-top: 5px !important;
+      }
+      .btncardcustom2{
+        margin-top: 5px !important;
+        font-size: 10px !important;
+        border-radius: 50%;
+      }
+    /* .responsive-reposition{
+      justify-content: center !important;
+    } */
+  }
+
+
+  @media screen and (max-width: 990px){
+    .card-title2{
+      font-size: 15px !important;
+      padding-top: 5px !important;
+      min-height: 65px;
+      }
+
+      .card-body{
+        padding-top: 5px !important;
+      }
+
+      .btncardcustom{
+        font-size: 10px !important;
+        font-weight: lighter;
+        min-width: 125px !important;
+        justify-content: center;
+        margin-right: 20px;
+      
+      }
+      .btncardcustom2{
+        margin-top: 5px !important;
+        font-size: 10px !important;
+        border-radius: 50%;
+       
+      }
+
+    .responsive-reposition{
+      justify-content: center !important;
+    }
+  }

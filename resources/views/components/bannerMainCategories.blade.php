@@ -1,4 +1,4 @@
-<div class="main-banner" id="top">
+<section class="main-banner" id="top">
     <div class="container-fluid">
         <div class="row">
 
@@ -111,4 +111,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

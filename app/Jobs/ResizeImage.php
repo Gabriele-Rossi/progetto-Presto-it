@@ -38,7 +38,7 @@ class ResizeImage implements ShouldQueue
         $image= Image::load($srcPath);
         $image->watermark(base_path('resources/img/watermark.png'))
             ->watermarkPosition(Manipulations::POSITION_CENTER)
-            ->watermarkOpacity(30)
+            ->watermarkOpacity(5)
             ->watermarkHeight(100, Manipulations::UNIT_PERCENT)    
             ->watermarkWidth(100, Manipulations::UNIT_PERCENT);   
         

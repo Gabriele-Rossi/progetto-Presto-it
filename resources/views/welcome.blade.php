@@ -31,7 +31,7 @@
             
                     @foreach($products as $product)
                     
-                    <div class="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center">
+                    <div class="col-6 col-md-3 col-lg-3 my-4 d-flex justify-content-center">
                         <x-card :product="$product"/>
                     </div>
 

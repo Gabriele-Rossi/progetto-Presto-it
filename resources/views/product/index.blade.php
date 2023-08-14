@@ -3,13 +3,13 @@
     <div class="container-fluid bg-white mt-5 pt-5 min-vh-100">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h2 class="display-1 text-center mt-5 pt-5 loves-category2">{{__('ui.allOur')}}</h2>
+                <h2 class="display-1 text-center mt-5 loves-category2">{{__('ui.allOur')}}</h2>
                 <h2 class="display-4 text-center loves-category2">{{__('ui.ads')}}</h2>
                 @else
     <div class="container-fluid mt-5 pt-5 vh-50">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h2 class="display-1 text-center text-white mt-5 pt-5 loves-category">{{__('ui.allOur')}}</h2>
+                <h2 class="display-1 text-center text-white mt-5 loves-category">{{__('ui.allOur')}}</h2>
             
                 {{-- <p class="mx-auto my-auto border-h2"></p> --}}
 
@@ -18,21 +18,21 @@
             </div>
             <div class="col-12">
                 @if (session('message'))
-                <div class="alert alert-success" id="adv">
+                <div class="alert alert-success alert-success-height" id="adv">
                     {{ session('message') }}
                 </div>
                 @endif
               
                   
                 @if (session('access.denied'))
-                <div class="alert alert-danger" id="adv">
+                <div class="alert alert-danger alert-success-height" id="adv">
                     {{ session('access.denied') }}
                 </div>
                 @endif
                 
                 
                 @if ($errors->any())
-                <div class="alert alert-danger" id="adv">
+                <div class="alert alert-danger alert-success-height" id="adv">
                     <ul>
                         @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
@@ -49,7 +49,7 @@
             
                     @foreach($products as $product)
                     
-                    <div class="col-12 col-md-6 col-lg-3 my-2 d-flex justify-content-center">
+                    <div class="col-6 col-md-3 col-lg-3 my-4 d-flex justify-content-center">
                         <x-card :product="$product"/>
                     </div>
                     

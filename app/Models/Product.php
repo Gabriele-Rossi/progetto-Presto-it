@@ -43,10 +43,10 @@ class Product extends Model
     
     public function getDescriptionSubstring(){
         
-        if(strlen($this->body) > 12){
-            return substr($this->body , 0, 12) . '...';
+        if(strlen($this->title) > 40){
+            return substr($this->title , 0, 30) . '...';
         }else{
-            return $this->body;
+            return $this->title;
         }
     }
     

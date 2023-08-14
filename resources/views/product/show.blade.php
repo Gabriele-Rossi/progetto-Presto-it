@@ -1,21 +1,21 @@
 <x-layout>
 
     @if (session('message'))
-    <div class="alert alert-success" id="adv">
+    <div class="alert alert-success alert-success-height" id="adv">
         {{ session('message') }}
     </div>
     @endif
   
       
     @if (session('access.denied'))
-    <div class="alert alert-danger" id="adv">
+    <div class="alert alert-danger alert-success-height" id="adv">
         {{ session('access.denied') }}
     </div>
     @endif
     
     
     @if ($errors->any())
-    <div class="alert alert-danger" id="adv">
+    <div class="alert alert-danger alert-success-height" id="adv">
         <ul>
             @foreach ($errors->all() as $error)
             <li>{{ $error }}</li>
@@ -28,11 +28,11 @@
   <section class="container-fluid mt-5 py-5">
     <div class="row justify-content-center">
       <div class="col-12 col-md-8">
-        <h4 class="display-4 title-description text-white text-shadow-bluscuro">
+        <h5 class="title-description text-white text-shadow-bluscuro">
           {{__('ui.showAnnouncements')}} {{$product->title}}
-        </h4>
-            <p class="border-title-description"></p>
-        <h5 class="display-5 author-description">
+        </h5>
+
+        <h5 class="author-description">
           di {{$product->user->name}}
         </h5>
       </div>

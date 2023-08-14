@@ -14,21 +14,21 @@
             </div>
             <div class="col-12">
                 @if (session('message'))
-                <div class="alert alert-success" id="adv">
+                <div class="alert alert-success alert-success-height" id="adv">
                     {{ session('message') }}
                 </div>
                 @endif
               
                   
                 @if (session('access.denied'))
-                <div class="alert alert-danger" id="adv">
+                <div class="alert alert-danger alert-success-height" id="adv">
                     {{ session('access.denied') }}
                 </div>
                 @endif
                 
                 
                 @if ($errors->any())
-                <div class="alert alert-danger" id="adv">
+                <div class="alert alert-danger alert-success-height" id="adv">
                     <ul>
                         @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
@@ -46,7 +46,7 @@
             
                     @foreach($products as $product)
                     
-                    <div class="col-12 col-md-6 col-lg-3 my-2 d-flex justify-content-center">
+                    <div class="col-6 col-md-3 col-lg-3 my-4 d-flex justify-content-center">
                         <x-card :product="$product"/>
                     </div>
                     

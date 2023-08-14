@@ -303,13 +303,13 @@ body{
 .dropdown-item{
     /* border: 1px solid var(--bluscuro); */
     /* background-color: var(--bluscuro); */
-    color: var(--salmon) !important;
+    color: white !important;
     background: none !important;
     padding: 2px !important;
 }
 .dropdown-item:hover{
     /* background-color: var(--bluscuro) !important; */
-    color: white !important;
+    color: var(--salmon) !important;
     background: none;
 }
 .bgwelcome {
@@ -466,5 +466,11 @@ body{
     
   }
 
+.alert-success-height{
+    margin-top: 100px !important;
+}
+.alert-danger-height{
+    margin-top: 100px;
 
+}
 
