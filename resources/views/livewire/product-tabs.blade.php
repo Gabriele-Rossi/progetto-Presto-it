@@ -11,14 +11,14 @@
         <tbody>
         @foreach ($products as $product)
         <tr>
-            <td class="text-center text-white pt-3 h5">"{{$product->title}}"</td>
+            <td class="text-center text-bluscuro pt-3 h5">"{{$product->title}}"</td>
             <td>
                 @if($product->is_accept==true)
-                    <p class="text-center text-white mt-2 h6">{{__('ui.acceptedAnnouncement')}}  <i class="text-success fas fa-circle"></i></p>
+                    <p class="text-center text-bluscuro mt-2 h6">{{__('ui.acceptedAnnouncement')}}  <i class="text-success fas fa-circle"></i></p>
                 @elseif($product->is_accept===null)
-                    <p class="text-center text-white mt-2 h6">{{__('ui.reviseAnnouncement')}}  <i class="text-warning fas fa-circle"></i></p>
+                    <p class="text-center text-bluscuro mt-2 h6">{{__('ui.reviseAnnouncement')}}  <i class="text-warning fas fa-circle"></i></p>
                 @else
-                    <p class="text-center text-white mt-2 h6">{{__('ui.rejectedAnnouncement')}}  <i class="text-danger fas fa-circle"></i></p>
+                    <p class="text-center text-bluscuro mt-2 h6">{{__('ui.rejectedAnnouncement')}}  <i class="text-danger fas fa-circle"></i></p>
                 @endif
             </td>          
             <td>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 @else
-                    <p class="text-white mt-2 h6 text-center">{{__('ui.notActions')}}</p>
+                    <p class="text-bluscuro mt-2 h6 text-center">{{__('ui.notActions')}}</p>
                 @endif
             </td>
         </tr>
