@@ -63,10 +63,10 @@
   margin-right: 10px;
 }
 .text-dropdown{
-  color: white;
+ color: var(--salmon);
 }
 .text-dropdown:hover{
-  color: var(--salmon);
+   color: white;
 }
 
 
