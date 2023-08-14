@@ -23,10 +23,6 @@ class PublicController extends Controller
         return view('product.category', compact('products'), compact('category'));
     }
 
-    public function provaNavbar(){
-        return view('provaSidebar');
-    }
-
     public function setLanguage($lang){
         session()->put('locale', $lang);
         return redirect()->back(); 
