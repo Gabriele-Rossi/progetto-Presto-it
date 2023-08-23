@@ -4,16 +4,16 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <h2 class="display-1 text-center mt-5 loves-category2">{{__('ui.allOur')}}</h2>
-                <h2 class="display-4 text-center loves-category2">{{__('ui.ads')}}</h2>
+                <h2 class="text-center loves-category2">{{__('ui.ads')}}</h2>
                 @else
-    <div class="container-fluid mt-5 pt-5 vh-50">
+    <div class="container-fluid mt-5 pt-5 min-vh-75">
         <div class="row justify-content-center">
             <div class="col-12">
                 <h2 class="display-1 text-center text-white mt-5 loves-category">{{__('ui.allOur')}}</h2>
             
                 {{-- <p class="mx-auto my-auto border-h2"></p> --}}
 
-                <h2 class="display-4 text-center loves-category">{{__('ui.ads')}}</h2>
+                <h2 class="text-center loves-category2">{{__('ui.ads')}}</h2>
               @endif  
             </div>
             <div class="col-12">
