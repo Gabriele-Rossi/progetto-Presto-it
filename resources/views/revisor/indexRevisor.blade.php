@@ -2,7 +2,7 @@
    @if ($product_to_check)
   <section class="container-fluid bg-white mt-5 py-5 min-vh-100">
     @else
-    <section class="container-fluid mt-5 py-5 min-vh-100">
+    <section class="container-fluid mt-5 py-5 min-vh-75">
       @endif
     <div class="row justify-content-center">
       @if ($product_to_check)

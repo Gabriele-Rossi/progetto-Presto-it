@@ -482,3 +482,9 @@ body{
 .text-redux20px{
     font-size: 20px !important;
 }
+.min-vh-50{
+    min-height: 50vh !important;
+}
+.min-vh-75{
+    min-height: 75vh !important;
+}

@@ -2,12 +2,12 @@
     @if($products->isNotEmpty())
        <div class="container-fluid bg-white mt-5 pt-5 min-vh-100">
        @else
-       <div class="container-fluid mt-5 pt-5 vh-50">
+       <div class="container-fluid mt-5 pt-5 min-vh-75">
            @endif
            <div class="row justify-content-center">
                <div class="col-12">
                    <h2 class="display-3 text-center text-white mt-5 loves-category">{{__('ui.allOur')}}</h2>
-                   <h2 class="display-4 text-center text-salmon loves-category">{{__('ui.ads')}}</h2>  
+                   <h2 class="text-center loves-category2">{{__('ui.ads')}}</h2>  
                </div>
                <div class="col-12">
                    @if (session('message'))
